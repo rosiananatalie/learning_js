@@ -10,9 +10,7 @@ function MainContent(props){
         <div className ="todo-list">
             <input type = "checkbox" checked = {props.item.completed}/>
             <p>{props.item.text}</p>
-        </div>
-            
-            
+        </div>     
     )
 }
 
