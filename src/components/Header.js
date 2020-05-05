@@ -1,5 +1,4 @@
 import React from "react"
-import { fireEvent } from "@testing-library/react"
 
 function Header(){
     const firstName = "Rosiana"
