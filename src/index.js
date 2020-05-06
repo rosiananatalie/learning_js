@@ -8,5 +8,6 @@ import App from "./App" //--> to-do list app
 //import App5 from "./App5" //--> state practice 1.
 //import App6 from "./App6" //--> state practice 2; putting the conditions in the render function.
 //import App7 from "./App7" //--> Handling event
+import App8 from "./App8" //--> changing state
 
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<App8 />, document.getElementById("root"))
