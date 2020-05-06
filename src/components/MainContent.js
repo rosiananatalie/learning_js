@@ -8,7 +8,11 @@ function MainContent(props){
     //Don't forget to return at the end
     return(
         <div className ="todo-list">
-            <input type = "checkbox" checked = {props.item.completed}/>
+            <input 
+                type = "checkbox" 
+                checked = {props.item.completed} 
+                onChange = {() => console.log("Hello!")}
+            />
             <p>{props.item.text}</p>
         </div>     
     )

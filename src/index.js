@@ -7,5 +7,6 @@ import App from "./App" //--> to-do list app
 //import App4 from "./App4" //--> class-based component practice
 //import App5 from "./App5" //--> state practice 1.
 //import App6 from "./App6" //--> state practice 2; putting the conditions in the render function.
+//import App7 from "./App7" //--> Handling event
 
 ReactDOM.render(<App />, document.getElementById("root"))
