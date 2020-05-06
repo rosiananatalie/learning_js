@@ -10,4 +10,6 @@ import App from "./App" //--> to-do list app
 //import App7 from "./App7" //--> Handling event
 import App8 from "./App8" //--> changing state
 
+//render the application
+
 ReactDOM.render(<App8 />, document.getElementById("root"))
