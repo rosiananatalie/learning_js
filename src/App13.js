@@ -11,7 +11,7 @@ class App13 extends React.Component{
 
     componentDidMount(){
         this.setState({loading: true})
-        fetch("https://swapi.dev/api/people/2")
+        fetch("https://swapi.dev/api/people/3")
             .then(response => response.json())
             .then(data => {
                 this.setState({
