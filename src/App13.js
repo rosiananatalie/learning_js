@@ -22,7 +22,7 @@ class App13 extends React.Component{
     }
 
     render (){
-        const text = this.state.loading ? "loading.." : this.state.character.eye_color
+        const text = this.state.loading ? "loading you favourite.." : this.state.character.eye_color
         return (
             <div>
                 <p>{text}</p>
