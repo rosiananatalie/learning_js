@@ -10,8 +10,10 @@ import App from "./App" //--> to-do list app
 //import App7 from "./App7" //--> Handling event
 //import App8 from "./App8" //--> changing state
 //import App9 from "./App9" //--> to-do app with changing state
-import App10 from "./App10" // --> conditional rendering part 1
+//import App10 from "./App10" // --> conditional rendering part 1
+//import App11 from "./App11" // --> conditional rendering part 2
+//import App12 from "./App12" // --> conditional rendering practice. 
 
 //render the application
 
-ReactDOM.render(<App10 />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))

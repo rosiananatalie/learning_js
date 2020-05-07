@@ -2,6 +2,12 @@ import React from "react"
 
 function MainContent(props){
 
+    const completedStyle = {
+        fontStyle: "Italic",
+        color : "#0095b5",
+        textDecoration: "line-through"
+    }
+
     // fill this up with the program operation like calculation and if-else statement
     // XXXXXX
 
@@ -13,7 +19,8 @@ function MainContent(props){
                 checked = {props.item.completed} /**determine if the item is checked or not.*/
                 onChange = {() => props.event(props.item.id)} /** make an arrow function because we were trying to pass the function result, not an object. Hence, if you only put the props.event, then it won't do anything */
             />
-            <p>{props.item.text}</p>
+            <p style = {props.item.completed ? completedStyle : null}>{props.item.text}</p>
+
         </div>     
     )
 }
