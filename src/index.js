@@ -13,7 +13,8 @@ import App from "./App" //--> to-do list app
 //import App10 from "./App10" // --> conditional rendering part 1
 //import App11 from "./App11" // --> conditional rendering part 2
 //import App12 from "./App12" // --> conditional rendering practice. 
+import App13 from "./App13" // --> Fetching data from API
 
 //render the application
 
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<App13 />, document.getElementById("root"))
